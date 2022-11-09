@@ -1,0 +1,130 @@
+html {
+    background: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+h1, .perfume-price {
+    font-family:'Fraunces', Georgia sans-serif;
+    color:  hsl(212, 21%, 14%);
+}
+
+.container {
+    margin: 5%;
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.main-p, button, .p-before-header{
+    font-family: 'Josefin Sans', Georgia, sans-serif;
+}
+
+.main-p {
+    line-height: 1.5em;
+}
+
+button {
+    background: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mobile-img {
+   border-radius: 20px 20px 0 0;
+}
+
+.perfume-price {
+    color:  hsl(158, 36%, 37%);
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.p-before-header {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+
+
+.p-before-header, .main-p, .perfume-crossed-price {
+    color: hsl(228, 12%, 48%);
+}
+
+.perfume-crossed-price {
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.under-img-content {
+    margin: 5% 10%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1000px){
+    .desktop-img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+  .container {
+        background: none;
+        display: flex;
+        margin: 15% 25%;
+        flex-direction: row;
+        background: white;
+        border-radius: 12px;
+        flex-wrap: wrap;
+    }
+
+    .under-img-content {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+        flex: 1 0 200px;
+    }
+
+    .desktop-img {
+        object-fit: cover;
+        width: 200px; 
+        flex: 1 0 200px;
+        border-radius: 12px 0 0 12px;
+    }
+
+    button {
+        font-size: 12px;
+        width: 90%;
+        height: 30px;
+        border-radius: 6px;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .perfume-price {
+        font-size: 24px;
+    }
+
+    .main-p {
+        font-size: 10px;
+    }
+
+    .p-before-header {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+ 
+    .perfume-crossed-price {
+        font-size: 16px;
+    }
+}
