@@ -1,4 +1,4 @@
-# Perfume Item Portfolio Prohect
+# Perfume Item Portfolio Project
 This is a very simple-structured landing webpage that was cloned by me. 
 I used one of the free templates available on 'Frontend Mentor' website in order to practice and improve. 
 
